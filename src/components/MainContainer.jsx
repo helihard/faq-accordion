@@ -1,3 +1,6 @@
+import BackgroundPatternMobile from "../assets/images/background-pattern-mobile.svg";
+import BackgroundPatternDesktop from "../assets/images/background-pattern-desktop.svg";
+
 function MainContainer() {
   return (
     <>
