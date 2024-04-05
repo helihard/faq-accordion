@@ -13,7 +13,8 @@ body {
   place-items: center;
   min-height: 100vh;
   background-image: url(./src/assets/images/background-pattern-mobile.svg);
-  background-color: var(--darkpurple);
+  background-color: var(--lightpink);
+  background-repeat: no-repeat;
   font-family: "Work Sans", sans-serif;
 }
 
