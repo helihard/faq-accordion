@@ -1,4 +1,4 @@
-function Container() {
+function MainContainer() {
   return (
     <>
       <div id="container">
@@ -21,4 +21,4 @@ function Container() {
   );
 }
 
-export default Container;
+export default MainContainer;
