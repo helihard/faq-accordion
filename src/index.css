@@ -18,6 +18,13 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#container {
+  width: 290px;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
