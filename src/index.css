@@ -18,7 +18,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-#container {
+main {
   width: 290px;
   background-color: var(--white);
   padding: 20px;

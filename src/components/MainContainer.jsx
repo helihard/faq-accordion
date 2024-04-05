@@ -1,10 +1,7 @@
-import BackgroundPatternMobile from "../assets/images/background-pattern-mobile.svg";
-import BackgroundPatternDesktop from "../assets/images/background-pattern-desktop.svg";
-
 function MainContainer() {
   return (
     <>
-      <div id="container">
+      <main>
         FAQs What is Frontend Mentor, and how will it help me? Frontend Mentor
         offers realistic coding challenges to help developers improve their
         frontend coding skills with projects in HTML, CSS, and JavaScript.
@@ -19,7 +16,7 @@ function MainContainer() {
         help is inside Frontend Mentor&apos;s Discord community. There&apos;s a
         help channel where you can ask questions and seek support from other
         community members.
-      </div>
+      </main>
     </>
   );
 }
