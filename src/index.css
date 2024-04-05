@@ -6,6 +6,14 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url(./src/assets/images/background-pattern-mobile.svg);
+  background-color: var(--darkpurple);
   font-family: "Work Sans", sans-serif;
 }
 
