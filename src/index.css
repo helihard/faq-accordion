@@ -10,7 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   display: grid;
-  place-items: center;
+  place-items: start center;
   min-height: 100vh;
   background-image: url(./src/assets/images/background-pattern-mobile.svg);
   background-color: var(--lightpink);
@@ -19,6 +19,7 @@ body {
 }
 
 main {
+  margin-top: 150px;
   width: 290px;
   background-color: var(--white);
   padding: 20px;
