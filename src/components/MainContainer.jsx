@@ -1,10 +1,14 @@
 import Accordion from "./Accordion";
 import accordionContent from "../assets/accordionContent";
+import iconStar from "../assets/images/icon-star.svg";
 
 function MainContainer() {
   return (
     <main>
-      <h1>FAQs</h1>
+      <div id="accordion-title">
+        <img src={iconStar} alt="Star-icon" />
+        <h1>FAQs</h1>
+      </div>
       <div>
         {accordionContent.map(({ question, answer }, index) => (
           <Accordion
