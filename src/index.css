@@ -1,6 +1,7 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --lightpink: hsl(275, 100%, 97%);
+  --brightpurple: hsl(281, 83%, 54%);
   --grayishpurple: hsl(292, 16%, 49%);
   --darkpurple: hsl(292, 42%, 14%);
 }
@@ -20,10 +21,45 @@ body {
 
 main {
   margin-top: 150px;
-  width: 290px;
+  max-width: 290px;
   background-color: var(--white);
   padding: 20px;
   border-radius: 10px;
+}
+
+.accordion-qna {
+  border-bottom: 1px solid var(--lightpink);
+}
+
+.accordion-answer {
+  color: var(--grayishpurple);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#last-accordion-item {
+  border-bottom: 1px solid transparent;
+}
+
+h1,
+h2 {
+  color: var(--darkpurple);
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h2:hover {
+  color: var(--brightpurple);
 }
 
 .attribution {
