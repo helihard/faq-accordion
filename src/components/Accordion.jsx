@@ -1,16 +1,25 @@
 import { useState } from "react";
+import iconPlus from "../assets/images/icon-plus.svg";
+import iconMinus from "../assets/images/icon-minus.svg";
 
 const Accordion = ({ question, answer, id }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <div className="accordion-qna" id={id} onClick={() => setIsOpen(!isOpen)}>
-        <div className="accordion-question">
+    <div className="accordion-qna" id={id} onClick={() => setIsOpen(!isOpen)}>
+      <div className="accordion-question">
+        <div>
           <h2>{question}</h2>
         </div>
-        {isOpen && <div className="accordion-answer">{answer}</div>}
+        <div>
+          {isOpen ? (
+            <img src={iconMinus} alt="Close" />
+          ) : (
+            <img src={iconPlus} alt="Open" />
+          )}
+        </div>
       </div>
+      {isOpen && <div className="accordion-answer">{answer}</div>}
     </div>
   );
 };
