@@ -13,9 +13,9 @@ const Accordion = ({ question, answer, id }) => {
         </div>
         <div>
           {isOpen ? (
-            <img src={iconMinus} alt="Close" />
+            <input type="image" src={iconMinus} alt="Close" />
           ) : (
-            <img src={iconPlus} alt="Open" />
+            <input type="image" src={iconPlus} alt="Open" />
           )}
         </div>
       </div>
