@@ -11,14 +11,7 @@ function MainContainer() {
       </div>
       <div>
         {accordionContent.map(({ question, answer }, index) => (
-          <Accordion
-            key={index}
-            question={question}
-            answer={answer}
-            id={
-              index === accordionContent.length - 1 ? "last-accordion-item" : ""
-            }
-          />
+          <Accordion key={index} question={question} answer={answer} />
         ))}
       </div>
     </main>

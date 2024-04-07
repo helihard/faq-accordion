@@ -46,6 +46,11 @@ main * {
   border-bottom: 1px solid var(--lightpink);
 }
 
+.accordion-qna:last-of-type {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0;
+}
+
 .accordion-question {
   display: flex;
   align-items: center;
@@ -64,11 +69,6 @@ main * {
   font-weight: 400;
   line-height: 1.5;
   padding: 0 5px 20px 0;
-}
-
-#last-accordion-item {
-  border-bottom: 1px solid transparent;
-  padding-bottom: 0;
 }
 
 h1 {
@@ -92,6 +92,7 @@ h2:hover {
 }
 
 .attribution {
+  margin-top: 20px;
   font-size: 11px;
   text-align: center;
 }
@@ -110,17 +111,12 @@ h2:hover {
     max-width: 460px;
     min-width: 460px;
     margin-top: 200px;
-    margin-bottom: 20px;
-    padding: 34px 34px 0 34px;
+    padding: 34px 34px 10px 34px;
   }
 
   #accordion-title img {
     width: 34px;
     margin-right: 25px;
-  }
-
-  #last-accordion-item {
-    padding-bottom: 12px;
   }
 
   h1 {
