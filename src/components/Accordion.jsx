@@ -6,8 +6,12 @@ const Accordion = ({ question, answer, id }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="accordion-qna" id={id} onClick={() => setIsOpen(!isOpen)}>
-      <div className="accordion-question">
+    <div className="accordion-qna">
+      <div
+        className="accordion-question"
+        id={id}
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <div>
           <h2>{question}</h2>
         </div>
