@@ -56,7 +56,7 @@ main * {
   align-items: center;
   justify-content: space-between;
 
-  img {
+  input {
     width: 30px;
     height: auto;
     margin-left: 20px;
