@@ -10,13 +10,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: grid;
-  place-items: start center;
-  min-height: 100vh;
-  background-image: url(./src/assets/images/background-pattern-mobile.svg);
   background-color: var(--lightpink);
-  background-repeat: no-repeat;
   font-family: "Work Sans", sans-serif;
+}
+
+#body-container {
+  min-width: "100vw";
+  min-height: "100vh";
 }
 
 main {
@@ -98,12 +98,6 @@ h2:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (min-width: 376px) {
-  body {
-    background-image: url(./src/assets/images/background-pattern-desktop.svg);
-  }
 }
 
 @media (min-width: 600px) {
